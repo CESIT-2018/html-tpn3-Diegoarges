@@ -1,0 +1,44 @@
+.titulo {
+    font-family: arial, sans-serif ; size: 38px;
+    color: red;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
