@@ -1,0 +1,58 @@
+<!--
+
+  Crear una web html, css y javascript.
+  Debe agrear los estilos y javascript en archivos separados.
+
+  1. Crear una web html
+  2. Agregar título "Listado de alumnos"
+  3. Crear una tabla con un listado de 4 alumnos (nombre, apellido, email)
+  4. Colorear el título utilizando css
+  5. Agregar estilo al header de la tabla utilizando javascript
+  6. Mostrar un mensaje de bienvenidos cuando cargue la página -> con js
+  
+ -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Listado de alumnos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+    
+  </head>
+  
+  <body>
+      <h1 id="titulo">Listado de alumnos</h1>
+    <table>
+        <thead>
+          <th class="tableTitle">Nombre</th>
+          <th>Apellido</th>
+          <th>Email</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>jperez@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Pablo</td>
+            <td>Pescara</td>
+            <td>ppezcara@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Diego</td>
+            <td>Gonzalez</td>
+            <td>dgonzalez@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Tadeo</td>
+            <td>Gutierrez</td>
+            <td>tgutierrez@gmail.com</td>
+              </tr>
+        </tbody>
+      </table>
+      <script src="misScript.js"></script>  
+  </body>
+</html>
