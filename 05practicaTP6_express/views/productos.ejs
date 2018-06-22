@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>TABLA</h1>
+    <table>
+        <thead>
+            <th> Producto </th>
+            <th> Cantidad </th>
+        </thead>
+        <tbody>
+            <% for(let i=0;i<prods.length;i++){ %>
+
+                <tr>
+                    <td> <%= prods[i].nombre %> </td>  
+                    <td align="center"> <b> <%= prods[i].cantidad %> </b></td>
+                </tr>
+            <% } %>
+
+        </tbody>
+    
+    </table>
+
+</body>
+</html>
